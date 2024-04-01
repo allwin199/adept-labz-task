@@ -1,0 +1,56 @@
+.coupons-wrapper {
+    background-image: url("../../assets/images/08.svg");
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coupon-overlay {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coupons-head {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.coupons-contact {
+    display: flex;
+    margin-top: 30px;
+}
+
+.coupon-input {
+    width: 360px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.coupon-button {
+    width: 125px;
+    height: 44px;
+    margin-left: 10px;
+    background-color: #e10000;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.coupon-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

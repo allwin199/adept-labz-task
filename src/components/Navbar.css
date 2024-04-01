@@ -1,0 +1,9 @@
+.header-style {
+    border-width: 1px;
+    border-style: solid;
+}
+
+@media (min-width: 768px) {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}

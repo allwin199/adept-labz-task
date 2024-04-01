@@ -1,0 +1,27 @@
+.banner2-container-wrapper {
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.left-element {
+    background-image: url("../../assets/images/02.svg");
+    flex: 1;
+}
+
+.right-element {
+    flex: 1;
+    gap: 10px;
+}
+
+.inner-element {
+    height: 365px;
+    flex: 1;
+}
+
+.inner-element-1 {
+    background-image: url("../../assets/images/03.svg");
+}
+
+.inner-element-2 {
+    background-image: url("../../assets/images/04.svg");
+}

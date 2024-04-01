@@ -1,0 +1,27 @@
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.f14 {
+    font-size: 14px;
+}
+.h-100vh {
+    height: 100vh;
+}
+.bg-size-cover {
+    background-size: cover;
+}
+.bg-position-center {
+    background-position: center;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
