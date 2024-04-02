@@ -1,4 +1,5 @@
 import "./header.css";
+import "../assets/css/common.css";
 
 const Header = () => {
     const links = [
@@ -33,19 +34,19 @@ const Header = () => {
     ];
 
     return (
-        <div className="header-wrapper">
-            <div className="header-logo">
-                <div className="logo-text">MADE UP</div>
+        <div className="header-wrapper d-flex align-center">
+            <div className="header-logo d-flex justify-center">
+                <p className="logo-text">MADE UP</p>
             </div>
             <div className="header-links">
-                <ul>
+                <ul className="d-flex align-center">
                     {links.map((link) => (
                         <li key={link.title}>{link.title}</li>
                     ))}
                 </ul>
             </div>
             <div className="header-icons">
-                <ul>
+                <ul className="d-flex align-center justify-center">
                     <li>
                         <img
                             src="../src/assets/search.svg"

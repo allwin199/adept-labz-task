@@ -35,6 +35,9 @@
     display: flex;
     justify-content: center;
     padding: 0 0 60px 0;
+    font-size: 24px;
+    weight: 400;
+    color: #333333;
 }
 
 .name-wrapper {
@@ -50,4 +53,8 @@
 
 .testimonial-content {
     color: #707070;
+    font-size: 14px;
+    line-height: 20.23px;
+    font-weight: 400;
+    font-style: italic;
 }

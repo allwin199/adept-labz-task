@@ -2,16 +2,11 @@
     margin: 30px 140px 50px 140px;
 }
 .collection-items {
-    display: flex;
     gap: 10px;
-    align-items: center;
     justify-content: space-evenly;
 }
 
 .latest-collection-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 10px 0px;
 }
 
@@ -21,7 +16,21 @@
     align-items: center;
 }
 
-.price {
+.collection-item-details {
+    margin-top: 10px;
+}
+
+.collection-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.23px;
+    padding-bottom: 5px;
+}
+
+.collection-price {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.79px;
     color: var(--color);
 }
 

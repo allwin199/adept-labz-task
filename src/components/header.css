@@ -1,22 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 .header-wrapper {
-    display: flex;
     height: 70px;
     padding: 0px 55px;
-    align-items: center;
 }
 
 .header-logo {
     width: 98.66px;
     height: 70px;
     background-color: #e10000;
-    display: flex;
-    justify-content: center;
     color: #ffffff;
     cursor: pointer;
 }
 
 .logo-text {
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.88px;
+    font-family: "Scada", sans-serif;
 }
 
 .header-links {
@@ -24,25 +26,21 @@
 }
 
 .header-links ul {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
     gap: 40px;
-    padding: 0 80px;
-    font-size: 14px;
+    padding: 0 100px;
 }
 
 .header-links ul li {
     list-style-type: none;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
 }
 
 .header-icons ul {
-    display: flex;
-    /* flex: 1; */
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .header-icons ul li {

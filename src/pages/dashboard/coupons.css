@@ -4,21 +4,14 @@
     background-position: center;
     height: 360px;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .coupon-overlay {
     background-color: #000000;
     height: 100%;
     width: 100%;
-    opacity: 40%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    opacity: 70%;
+    color: #ffffff;
 }
 
 .coupons-head {
@@ -47,6 +40,7 @@
     color: #ffffff;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .coupon-content {

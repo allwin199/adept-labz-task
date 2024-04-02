@@ -1,4 +1,5 @@
 import "./testimonials.css";
+import "../../assets/css/common.css";
 import RatingImg from "../../assets/images/star.svg";
 
 const Testimonials = () => {
@@ -18,10 +19,10 @@ const Testimonials = () => {
                         <p className="user-name">Vikas</p>
                         <div className="star-images">
                             <img src={RatingImg} />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
                         </div>
                     </div>
 
@@ -35,11 +36,11 @@ const Testimonials = () => {
                     <div className="name-wrapper">
                         <p className="user-name">Vikas</p>
                         <div className="star-images">
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
                         </div>
                     </div>
 
@@ -60,11 +61,11 @@ const Testimonials = () => {
                     <div className="name-wrapper">
                         <p className="user-name">Vikas</p>
                         <div className="star-images">
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
-                            <img src="../../src/assets/images/star.svg" />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
+                            <img src={RatingImg} />
                         </div>
                     </div>
 

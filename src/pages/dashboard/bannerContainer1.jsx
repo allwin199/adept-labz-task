@@ -1,5 +1,6 @@
 import "./bannerContainer1.css";
 import "../../assets/css/common.css";
+
 const BannerContainer1 = () => {
     return (
         <div className="banner-container bg-size-cover bg-position-center bg-no-repeat h-100vh d-flex justify-center align-center">

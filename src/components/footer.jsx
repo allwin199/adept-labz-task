@@ -1,22 +1,25 @@
 import "./footer.css";
+import "../assets/css/common.css";
 
 const Footer = () => {
     return (
         <div className="footer-wrapper">
-            <div className="footer-content">
-                <div className="left-section">
-                    <p>About Us</p>
-                    <p>Delivery Information</p>
-                    <p>Returns & Exchange</p>
-                    <p>Technical & Privacy</p>
-                    <p>Order Status</p>
+            <div className="footer-content d-flex">
+                <div className="left-section d-flex align-center flex-column">
+                    <div>
+                        <p>About Us</p>
+                        <p>Delivery Information</p>
+                        <p>Returns & Exchange</p>
+                        <p>Technical & Privacy</p>
+                        <p>Order Status</p>
+                    </div>
                 </div>
-                <div className="middle-section">
-                    <div className="footer-logo">
+                <div className="middle-section d-flex align-center flex-column">
+                    <div className="footer-logo d-flex justify-center">
                         <p className="made-up">MADE UP</p>
                     </div>
                     <p className="stay-in-touch">Stay in touch with us</p>
-                    <div className="social-icons">
+                    <div className="social-icons d-flex">
                         <img src="./src/assets/images/facebook.svg" />
 
                         <img src="./src/assets/images/instagram.svg" />
@@ -24,7 +27,7 @@ const Footer = () => {
                         <img src="./src/assets/images/youtube.svg" />
                     </div>
                 </div>
-                <div className="right-section">
+                <div className="right-section d-flex align-center flex-column">
                     <div>
                         <p className="corporate-office">Our Corporate Office</p>
                         <p className="office-address">
