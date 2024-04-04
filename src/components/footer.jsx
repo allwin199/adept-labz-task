@@ -1,5 +1,10 @@
 import "./footer.css";
 import "../assets/css/common.css";
+import FacebookImg from "../assets/images/facebook.svg";
+import InstagramImg from "../assets/images/instagram.svg";
+import YoutubeImg from "../assets/images/youtube.svg";
+import EmailImg from "../assets/images/email.svg";
+import PhoneImg from "../assets/images/phone.svg";
 
 const Footer = () => {
     return (
@@ -20,11 +25,11 @@ const Footer = () => {
                     </div>
                     <p className="stay-in-touch">Stay in touch with us</p>
                     <div className="social-icons d-flex">
-                        <img src="./src/assets/images/facebook.svg" />
+                        <img src={FacebookImg} />
 
-                        <img src="./src/assets/images/instagram.svg" />
+                        <img src={InstagramImg} />
 
-                        <img src="./src/assets/images/youtube.svg" />
+                        <img src={YoutubeImg} />
                     </div>
                 </div>
                 <div className="right-section d-flex align-center flex-column">
@@ -39,7 +44,7 @@ const Footer = () => {
                         <div className="office-contact">
                             <p>
                                 <span className="email-image">
-                                    <img src="./src/assets/images/email.svg" />
+                                    <img src={EmailImg} />
                                 </span>
                                 sales@madeup.com
                             </p>
@@ -47,7 +52,7 @@ const Footer = () => {
                         <div>
                             <p>
                                 <span className="email-image">
-                                    <img src="./src/assets/images/phone.svg" />
+                                    <img src={PhoneImg} />
                                 </span>
                                 044 9999 9999
                             </p>

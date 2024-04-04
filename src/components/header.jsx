@@ -1,7 +1,10 @@
 import "./header.css";
 import "../assets/css/common.css";
+import { Link, useMatch } from "react-router-dom";
 
 const Header = () => {
+    const dashboard = useMatch("/");
+
     const links = [
         {
             title: "For Me",
@@ -9,27 +12,27 @@ const Header = () => {
         },
         {
             title: "Jeans",
-            href: "/",
+            href: "/jeans",
         },
         {
             title: "Shirts",
-            href: "/",
+            href: "/shirts",
         },
         {
             title: "T-Shirts",
-            href: "/",
+            href: "/t-shirts",
         },
         {
             title: "Trousers",
-            href: "/",
+            href: "/trousers",
         },
         {
             title: "Joggers",
-            href: "/",
+            href: "/joggers",
         },
         {
             title: "Shorts",
-            href: "/",
+            href: "/shorts",
         },
     ];
 
@@ -41,7 +44,18 @@ const Header = () => {
             <div className="header-links">
                 <ul className="d-flex align-center">
                     {links.map((link) => (
-                        <li key={link.title}>{link.title}</li>
+                        <li key={link.title}>
+                            <Link
+                                to={link.href}
+                                className={`${
+                                    dashboard?.pathname === link.href
+                                        ? "nav-active-link"
+                                        : ""
+                                }`}
+                            >
+                                {link.title}
+                            </Link>
+                        </li>
                     ))}
                 </ul>
             </div>
@@ -60,10 +74,12 @@ const Header = () => {
                         />
                     </li>
                     <li>
-                        <img
-                            src="../src/assets/images/person.svg"
-                            className="nav-icon"
-                        />
+                        <Link to="/profile">
+                            <img
+                                src="../src/assets/images/person.svg"
+                                className="nav-icon"
+                            />
+                        </Link>
                     </li>
                 </ul>
             </div>

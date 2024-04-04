@@ -13,3 +13,15 @@ body {
 .container {
     max-width: 100%;
 }
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits color from parent */
+    background-color: transparent; /* Removes background color */
+    border: none; /* Removes border */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    font-size: 100%; /* Resets font size */
+    font-weight: normal; /* Resets font weight */
+    line-height: normal; /* Resets line height */
+}

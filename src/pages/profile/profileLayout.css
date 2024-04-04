@@ -1,0 +1,89 @@
+.profile-wrapper {
+    margin: 50px;
+}
+
+.nav-box {
+    width: 301px;
+}
+
+.nav-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.12px;
+    color: #222222;
+    padding-bottom: 5px;
+}
+
+.nav-subtext {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15.9px;
+    color: #9b9b9b;
+}
+
+.link-wrapper {
+    padding: 10px 0px;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.nav-arrow {
+    padding-left: 70px;
+}
+
+.active-link {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.nav-arrow-shipping {
+    padding-left: 40px;
+}
+
+.nav-arrow img {
+    height: 8px;
+}
+
+.profile-content {
+    margin-top: 40px;
+}
+
+.profile-content-box {
+    width: 784px;
+    border: 1px solid #333333;
+}
+
+.profile-text {
+    font-size: 12px;
+    line-height: 17.34px;
+    color: #777777;
+}
+
+.profile-name {
+    font-size: 16px;
+    line-height: 20px;
+    weight: 400;
+    color: #333333;
+}
+
+.profile-email {
+    font-size: 14px;
+    line-height: 20px;
+    weight: 500;
+    color: #9b9b9b;
+}
+
+.profile-section {
+    gap: 10px;
+    margin-bottom: 20px;
+}
