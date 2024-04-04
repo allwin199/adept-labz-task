@@ -32,3 +32,8 @@
     border: none;
     padding: 15px 40px;
 }
+
+.profile-details {
+    gap: 10px;
+    margin-bottom: 20px;
+}

@@ -14,8 +14,8 @@ const Profilelayout = () => {
             <div className="profile-content">
                 <div className="d-flex">
                     <div className="d-flex flex-column nav-box">
-                        <div className="d-flex align-center profile-section">
-                            <div className="">
+                        <div className="d-flex align-center profile-details">
+                            <div>
                                 <img src={ProfileImage} alt="profile-img" />
                             </div>
                             <div>
