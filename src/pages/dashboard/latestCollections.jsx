@@ -1,5 +1,8 @@
 import "./latestCollection.css";
 import "../../assets/css/common.css";
+import JeanImg from "../../assets/images/05.svg";
+import PersonImg from "../../assets/images/06.svg";
+import LatestCollectionItem from "./latestCollectionItem";
 
 const LatestCollections = () => {
     return (
@@ -13,56 +16,31 @@ const LatestCollections = () => {
                 </div>
             </div>
             <div className="collection-items d-flex align-center">
-                <div className="collection-item">
-                    <img
-                        src="../../src/assets/images/05.svg"
-                        alt="collection"
-                    />
-                    <div className="collection-item-details d-flex flex-column align-center">
-                        <p className="collection-name">Printed Polo T-Shirt</p>
-                        <p className="collection-price">₹1,499.00</p>
-                    </div>
-                </div>
-                <div className="collection-item">
-                    <img
-                        src="../../src/assets/images/06.svg"
-                        alt="collection"
-                    />
-                    <div className="collection-item-details d-flex flex-column align-center">
-                        <p className="collection-name">Printed Polo T-Shirt</p>
-                        <p className="collection-price">₹1,499.00</p>
-                    </div>
-                </div>
-                <div className="collection-item">
-                    <img
-                        src="../../src/assets/images/05.svg"
-                        alt="collection"
-                    />
-                    <div className="collection-item-details d-flex flex-column align-center">
-                        <p className="collection-name">Printed Polo T-Shirt</p>
-                        <p className="collection-price">₹1,499.00</p>
-                    </div>
-                </div>
-                <div className="collection-item">
-                    <img
-                        src="../../src/assets/images/06.svg"
-                        alt="collection"
-                    />
-                    <div className="collection-item-details d-flex flex-column align-center">
-                        <p className="collection-name">Printed Polo T-Shirt</p>
-                        <p className="collection-price">₹1,499.00</p>
-                    </div>
-                </div>
-                <div className="collection-item">
-                    <img
-                        src="../../src/assets/images/05.svg"
-                        alt="collection"
-                    />
-                    <div className="collection-item-details d-flex flex-column align-center">
-                        <p className="collection-name">Printed Polo T-Shirt</p>
-                        <p className="collection-price">₹1,499.00</p>
-                    </div>
-                </div>
+                <LatestCollectionItem
+                    image={JeanImg}
+                    name="Printed Polo T-Shirt"
+                    price="1,499.00"
+                />
+                <LatestCollectionItem
+                    image={PersonImg}
+                    name="Printed Polo T-Shirt"
+                    price="1,499.00"
+                />
+                <LatestCollectionItem
+                    image={JeanImg}
+                    name="Printed Polo T-Shirt"
+                    price="1,499.00"
+                />
+                <LatestCollectionItem
+                    image={PersonImg}
+                    name="Printed Polo T-Shirt"
+                    price="1,499.00"
+                />
+                <LatestCollectionItem
+                    image={JeanImg}
+                    name="Printed Polo T-Shirt"
+                    price="1,499.00"
+                />
             </div>
         </div>
     );
